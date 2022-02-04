@@ -1,0 +1,176 @@
+.header__intro {
+	width: 100%;	
+	background-color: #2d3136;
+	font-size: 36px;
+	color: #d7d7d7;
+}
+.logo img {
+	width: 305px;
+	height: 60px;
+	margin-top: 30px;
+}
+
+.icon img {
+	float: center;
+	width: 260px;
+	height: 260px;
+	margin-top: 60px;
+}
+
+.symbol {
+    color: #be393b;
+}
+
+
+.form-control {
+    background-color: #2d3136;
+    border-color: #4c4f53;
+    color: #d7d7d7;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+input:focus, textarea:focus, input.form-control:focus, textarea.form-control:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+#name {
+	padding: 13px;
+}
+
+#email {
+	padding: 13px;
+}
+
+.form-control:focus {
+    background-color: #2d3136;
+    border-color: #743538;
+    color: #d7d7d7;
+}
+
+textarea {
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-lg {
+	margin-top: 55px;
+	margin-bottom: 55px;
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .my-button {
+        width: 100%;
+    }
+}
+
+.comment-title {
+    color: #37414e;
+    font-size: 2.9rem;
+    font-weight: bold;
+    margin: 70px 0 70px 0;
+    letter-spacing: 0.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section .container h1 {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+/* Card */
+
+.card {
+    border-width: 0;
+    margin-bottom: 75px;
+}
+
+.my-cards .card-header {
+    background-color: #4b596c;
+    color: #ffffff;
+    height: 96px;
+    font-size: 2.5rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 48px;
+}
+
+.my-cards div:nth-child(2n) .card-header {
+    background-color: #58ad52;
+}
+
+.card-body {
+    background-color: #e9eef3;
+    height: 370px;
+}
+
+.my-cards div:nth-child(2n) .card-body {
+    background-color: #deebde;
+}
+
+.card-title {
+    font-size: 2.4rem;
+    color: #6d737b;
+    font-weight: bold;
+    margin: 50px 0 70px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.my-cards div:nth-child(even) div > h4.card-title {
+    color: #58ad52;
+}
+
+.card-text {
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #767582;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2.4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.my-cards div:nth-child(even) div > p.card-text {
+    color: #768275;
+}
+
+/* Footer */
+
+footer {
+  height: 100%
+  width: 100%;
+  background-color: #2d3136;
+}
+
+.footer .container .logo {
+	width: 250px;
+	height: 50px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.footer-content-right {
+  float: right;
+}
+
+.footer-content-right img {
+  height: 40px;
+  margin: 20px 5px 20px 5px;
+  border: 2px solid #454648;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #2f3338;
+}
